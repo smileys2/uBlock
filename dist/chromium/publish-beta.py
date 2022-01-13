@@ -46,7 +46,7 @@ github_repo = 'uBlock'
 
 # Load/save auth secrets
 # The build directory is excluded from git
-ubo_secrets = dict()
+ubo_secrets = {}
 ubo_secrets_filename = os.path.join(projdir, 'dist', 'build', 'ubo_secrets')
 if os.path.isfile(ubo_secrets_filename):
     with open(ubo_secrets_filename) as f:
